@@ -1,0 +1,109 @@
+<ANIM_TREE>
+	<OBJECT_LIST>
+		<COMMENT>
+			Created by HDEV8 on 2015/03/10 15:05:38 using Phidias Model Editor (x64) [DX9] (build 3831 for Holotech Studios - Feb 19 2015)
+		</COMMENT>
+		<OBJECT> TYPE=cAnimTreeNodeRoot NAME=cAnimTreeNodeRoot_1
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_60
+				m_strName="const_0"
+			</CHILD_OBJECT>
+			m_vars(0)=cNamedVar<cNamedVar_60>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_78
+				m_strName="idle"
+				m_fDefaultValue=1
+			</CHILD_OBJECT>
+			m_vars(1)=cNamedVar<cNamedVar_78>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_30
+				m_strName="special_action"
+			</CHILD_OBJECT>
+			m_vars(2)=cNamedVar<cNamedVar_30>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_31
+				m_strName="special_action_num"
+			</CHILD_OBJECT>
+			m_vars(3)=cNamedVar<cNamedVar_31>
+			<CHILD_OBJECT> TYPE=cAnimTreeNodeStateMachine NAME=cAnimTreeNodeStateMachine_3
+				<CHILD_OBJECT> TYPE=cAnimStateMachine NAME=cAnimStateMachine_3
+					<CHILD_OBJECT> TYPE=cAnimStateStarter NAME=cAnimStateStarter_3
+						<CHILD_OBJECT> TYPE=cAnimStateTransition NAME=cAnimStateTransition_3
+							m_stateFrom=cAnimStateStarter<cAnimStateStarter_3>
+							m_stateTo=cAnimStateAnimTree<cAnimStateAnimTree_0>
+							m_fDuration=0
+							m_nConditionCombination=Always
+						</CHILD_OBJECT>
+						m_transitions(0)=cAnimStateTransition<cAnimStateTransition_3>
+						m_strName="Start"
+						m_position=(x=-20.113,y=-2.88318)
+					</CHILD_OBJECT>
+					m_blocks(0)=cAnimStateStarter<cAnimStateStarter_3>
+					<CHILD_OBJECT> TYPE=cAnimStateMotion NAME=cAnimStateMotion_0
+						m_strClipName="visor_in"
+						<CHILD_OBJECT> TYPE=cAnimStateTransition NAME=cAnimStateTransition_1
+							m_stateFrom=cAnimStateMotion<cAnimStateMotion_0>
+							m_stateTo=cAnimStateMotion<cAnimStateMotion_1>
+							m_nTransitionWait=Wait_End
+							m_nConditionCombination=Always
+						</CHILD_OBJECT>
+						m_transitions(0)=cAnimStateTransition<cAnimStateTransition_1>
+						m_strName="In"
+						m_position=(x=-11.2721,y=-3.21628)
+					</CHILD_OBJECT>
+					m_blocks(1)=cAnimStateMotion<cAnimStateMotion_0>
+					<CHILD_OBJECT> TYPE=cAnimStateMotion NAME=cAnimStateMotion_1
+						m_strClipName="visor_loop"
+						m_bLoopable=TRUE
+						<CHILD_OBJECT> TYPE=cAnimStateTransition NAME=cAnimStateTransition_2
+							m_stateFrom=cAnimStateMotion<cAnimStateMotion_1>
+							m_stateTo=cAnimStateMotion<cAnimStateMotion_2>
+							m_nConditionCombination=If_All_Conditions
+							m_controls(0)=(m_strInputName="special_action",m_nConditionType=Less_Than,m_fValue=0.5)
+						</CHILD_OBJECT>
+						m_transitions(0)=cAnimStateTransition<cAnimStateTransition_2>
+						m_strName="Loop"
+						m_position=(x=-7.52998,y=-3.19994)
+					</CHILD_OBJECT>
+					m_blocks(2)=cAnimStateMotion<cAnimStateMotion_1>
+					<CHILD_OBJECT> TYPE=cAnimStateMotion NAME=cAnimStateMotion_2
+						m_strClipName="visor_out"
+						<CHILD_OBJECT> TYPE=cAnimStateTransition NAME=cAnimStateTransition_4
+							m_stateFrom=cAnimStateMotion<cAnimStateMotion_2>
+							m_stateTo=cAnimStateMotion<cAnimStateMotion_0>
+							m_nConditionCombination=If_All_Conditions
+							m_controls(0)=(m_strInputName="special_action",m_nConditionType=Greater_Than,m_fValue=0.5)
+						</CHILD_OBJECT>
+						m_transitions(0)=cAnimStateTransition<cAnimStateTransition_4>
+						m_strName="Out"
+						m_position=(x=-7.41483,y=0.149184)
+					</CHILD_OBJECT>
+					m_blocks(3)=cAnimStateMotion<cAnimStateMotion_2>
+					<CHILD_OBJECT> TYPE=cAnimStateAnimTree NAME=cAnimStateAnimTree_0
+						<CHILD_OBJECT> TYPE=cAnimTreeNodeRoot NAME=cAnimTreeNodeRoot_0
+							<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_0
+								m_strClipName="visor_in"
+								m_position=(x=3.29949,y=-0.147653)
+							</CHILD_OBJECT>
+							m_children(0)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_0>
+						</CHILD_OBJECT>
+						m_root=cAnimTreeNodeRoot<cAnimTreeNodeRoot_0>
+						<CHILD_OBJECT> TYPE=cAnimStateTransition NAME=cAnimStateTransition_5
+							m_stateFrom=cAnimStateAnimTree<cAnimStateAnimTree_0>
+							m_stateTo=cAnimStateMotion<cAnimStateMotion_0>
+							m_fDuration=0
+							m_nConditionCombination=If_All_Conditions
+							m_controls(0)=(m_strInputName="special_action",m_nConditionType=Greater_Than,m_fValue=0.5)
+						</CHILD_OBJECT>
+						m_transitions(0)=cAnimStateTransition<cAnimStateTransition_5>
+						m_strName="Anim Tree"
+						m_position=(x=-15.0065,y=-3.15802)
+					</CHILD_OBJECT>
+					m_blocks(4)=cAnimStateAnimTree<cAnimStateAnimTree_0>
+					m_starter=cAnimStateStarter<cAnimStateStarter_3>
+				</CHILD_OBJECT>
+				m_stateMachine=cAnimStateMachine<cAnimStateMachine_3>
+				m_strName="SpecialActionSM"
+				m_position=(x=-36.9586,y=-21.5403)
+			</CHILD_OBJECT>
+			m_children(0)=cAnimTreeNodeStateMachine<cAnimTreeNodeStateMachine_3>
+			m_position=(x=-41.0041,y=-21.8635)
+		</OBJECT>
+	</OBJECT_LIST>
+</ANIM_TREE>

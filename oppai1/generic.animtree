@@ -1,0 +1,564 @@
+<ANIM_TREE>
+	<OBJECT_LIST>
+		<COMMENT>
+			Created by MIRCEA on 2018/10/30 18:06:58 using Phidias Model Editor (x64) [DX9] (build 4130, rev #57089 for Holotech Studios - Dec 15 2015)
+		</COMMENT>
+		<OBJECT> TYPE=cAnimTreeNodeRoot NAME=cAnimTreeNodeRoot_1
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_92
+				m_strName="cheek_puff_l"
+			</CHILD_OBJECT>
+			m_vars(0)=cNamedVar<cNamedVar_92>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_91
+				m_strName="cheek_puff_r"
+			</CHILD_OBJECT>
+			m_vars(1)=cNamedVar<cNamedVar_91>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_30
+				m_strName="const_0"
+			</CHILD_OBJECT>
+			m_vars(2)=cNamedVar<cNamedVar_30>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_31
+				m_strName="ear_scale"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(3)=cNamedVar<cNamedVar_31>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_36
+				m_strName="eye_l_brow_down"
+			</CHILD_OBJECT>
+			m_vars(4)=cNamedVar<cNamedVar_36>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_37
+				m_strName="eye_l_brow_down_ext"
+			</CHILD_OBJECT>
+			m_vars(5)=cNamedVar<cNamedVar_37>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_38
+				m_strName="eye_l_brow_up"
+			</CHILD_OBJECT>
+			m_vars(6)=cNamedVar<cNamedVar_38>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_39
+				m_strName="eye_l_brow_up_ext"
+			</CHILD_OBJECT>
+			m_vars(7)=cNamedVar<cNamedVar_39>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_40
+				m_strName="eye_l_closed"
+			</CHILD_OBJECT>
+			m_vars(8)=cNamedVar<cNamedVar_40>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_41
+				m_strName="eye_l_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(9)=cNamedVar<cNamedVar_41>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_42
+				m_strName="eye_l_size"
+			</CHILD_OBJECT>
+			m_vars(10)=cNamedVar<cNamedVar_42>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_43
+				m_strName="eye_l_squint"
+			</CHILD_OBJECT>
+			m_vars(11)=cNamedVar<cNamedVar_43>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_44
+				m_strName="eye_l_UD"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(12)=cNamedVar<cNamedVar_44>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_45
+				m_strName="eye_r_brow_down"
+			</CHILD_OBJECT>
+			m_vars(13)=cNamedVar<cNamedVar_45>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_46
+				m_strName="eye_r_brow_down_ext"
+			</CHILD_OBJECT>
+			m_vars(14)=cNamedVar<cNamedVar_46>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_47
+				m_strName="eye_r_brow_up"
+			</CHILD_OBJECT>
+			m_vars(15)=cNamedVar<cNamedVar_47>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_51
+				m_strName="eye_r_brow_up_ext"
+			</CHILD_OBJECT>
+			m_vars(16)=cNamedVar<cNamedVar_51>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_52
+				m_strName="eye_r_closed"
+			</CHILD_OBJECT>
+			m_vars(17)=cNamedVar<cNamedVar_52>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_53
+				m_strName="eye_r_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(18)=cNamedVar<cNamedVar_53>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_108
+				m_strName="eye_r_size"
+			</CHILD_OBJECT>
+			m_vars(19)=cNamedVar<cNamedVar_108>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_109
+				m_strName="eye_r_squint"
+			</CHILD_OBJECT>
+			m_vars(20)=cNamedVar<cNamedVar_109>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_110
+				m_strName="eye_r_UD"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(21)=cNamedVar<cNamedVar_110>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_111
+				m_strName="eye_scale"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(22)=cNamedVar<cNamedVar_111>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_90
+				m_strName="handL_FB"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(23)=cNamedVar<cNamedVar_90>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_113
+				m_strName="handL_finger0"
+			</CHILD_OBJECT>
+			m_vars(24)=cNamedVar<cNamedVar_113>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_114
+				m_strName="handL_finger1"
+			</CHILD_OBJECT>
+			m_vars(25)=cNamedVar<cNamedVar_114>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_0
+				m_strName="handL_finger2"
+			</CHILD_OBJECT>
+			m_vars(26)=cNamedVar<cNamedVar_0>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_85
+				m_strName="handL_finger3"
+			</CHILD_OBJECT>
+			m_vars(27)=cNamedVar<cNamedVar_85>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_84
+				m_strName="handL_finger4"
+			</CHILD_OBJECT>
+			m_vars(28)=cNamedVar<cNamedVar_84>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_112
+				m_strName="handL_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(29)=cNamedVar<cNamedVar_112>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_100
+				m_strName="handL_naturalPose"
+			</CHILD_OBJECT>
+			m_vars(30)=cNamedVar<cNamedVar_100>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_88
+				m_strName="handL_solo_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(31)=cNamedVar<cNamedVar_88>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_86
+				m_strName="handL_solo_twist"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(32)=cNamedVar<cNamedVar_86>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_89
+				m_strName="handL_solo_UD"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(33)=cNamedVar<cNamedVar_89>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_87
+				m_strName="handL_UD"
+			</CHILD_OBJECT>
+			m_vars(34)=cNamedVar<cNamedVar_87>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_97
+				m_strName="handR_FB"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(35)=cNamedVar<cNamedVar_97>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_208
+				m_strName="handR_finger0"
+			</CHILD_OBJECT>
+			m_vars(36)=cNamedVar<cNamedVar_208>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_207
+				m_strName="handR_finger1"
+			</CHILD_OBJECT>
+			m_vars(37)=cNamedVar<cNamedVar_207>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_98
+				m_strName="handR_finger2"
+			</CHILD_OBJECT>
+			m_vars(38)=cNamedVar<cNamedVar_98>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_206
+				m_strName="handR_finger3"
+			</CHILD_OBJECT>
+			m_vars(39)=cNamedVar<cNamedVar_206>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_95
+				m_strName="handR_finger4"
+			</CHILD_OBJECT>
+			m_vars(40)=cNamedVar<cNamedVar_95>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_94
+				m_strName="handR_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(41)=cNamedVar<cNamedVar_94>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_99
+				m_strName="handR_naturalPose"
+			</CHILD_OBJECT>
+			m_vars(42)=cNamedVar<cNamedVar_99>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_209
+				m_strName="handR_solo_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(43)=cNamedVar<cNamedVar_209>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_211
+				m_strName="handR_solo_twist"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(44)=cNamedVar<cNamedVar_211>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_210
+				m_strName="handR_solo_UD"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(45)=cNamedVar<cNamedVar_210>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_96
+				m_strName="handR_UD"
+			</CHILD_OBJECT>
+			m_vars(46)=cNamedVar<cNamedVar_96>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_1
+				m_strName="head_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(47)=cNamedVar<cNamedVar_1>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_2
+				m_strName="head_squash"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(48)=cNamedVar<cNamedVar_2>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_3
+				m_strName="head_twist"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(49)=cNamedVar<cNamedVar_3>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_4
+				m_strName="head_UD"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(50)=cNamedVar<cNamedVar_4>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_5
+				m_strName="idle"
+				m_fDefaultValue=1
+			</CHILD_OBJECT>
+			m_vars(51)=cNamedVar<cNamedVar_5>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_6
+				m_strName="mouth_phonem_o"
+			</CHILD_OBJECT>
+			m_vars(52)=cNamedVar<cNamedVar_6>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_7
+				m_strName="mouth_pursed_lips"
+			</CHILD_OBJECT>
+			m_vars(53)=cNamedVar<cNamedVar_7>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_8
+				m_strName="mouth_pursed_lips_left"
+			</CHILD_OBJECT>
+			m_vars(54)=cNamedVar<cNamedVar_8>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_9
+				m_strName="mouth_pursed_lips_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(55)=cNamedVar<cNamedVar_9>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_10
+				m_strName="mouth_pursed_lips_right"
+			</CHILD_OBJECT>
+			m_vars(56)=cNamedVar<cNamedVar_10>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_11
+				m_strName="mouth_smile"
+			</CHILD_OBJECT>
+			m_vars(57)=cNamedVar<cNamedVar_11>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_12
+				m_strName="mouth_smile_right"
+			</CHILD_OBJECT>
+			m_vars(58)=cNamedVar<cNamedVar_12>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_13
+				m_strName="mouth_smile_unsure"
+			</CHILD_OBJECT>
+			m_vars(59)=cNamedVar<cNamedVar_13>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_14
+				m_strName="mouth_smile_with_teeth"
+				m_fDefaultValue=1
+			</CHILD_OBJECT>
+			m_vars(60)=cNamedVar<cNamedVar_14>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_15
+				m_strName="mouth_unsure"
+			</CHILD_OBJECT>
+			m_vars(61)=cNamedVar<cNamedVar_15>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_16
+				m_strName="mouth_unsure_right"
+			</CHILD_OBJECT>
+			m_vars(62)=cNamedVar<cNamedVar_16>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_17
+				m_strName="mouth_unveilled_teeth"
+			</CHILD_OBJECT>
+			m_vars(63)=cNamedVar<cNamedVar_17>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_18
+				m_strName="mouth_unveilled_teeth_down"
+			</CHILD_OBJECT>
+			m_vars(64)=cNamedVar<cNamedVar_18>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_19
+				m_strName="mouth_wide_open"
+			</CHILD_OBJECT>
+			m_vars(65)=cNamedVar<cNamedVar_19>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_20
+				m_strName="mouth_width"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(66)=cNamedVar<cNamedVar_20>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_21
+				m_strName="move_FB"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(67)=cNamedVar<cNamedVar_21>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_22
+				m_strName="move_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(68)=cNamedVar<cNamedVar_22>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_23
+				m_strName="move_twist"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(69)=cNamedVar<cNamedVar_23>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_24
+				m_strName="nose_scale"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(70)=cNamedVar<cNamedVar_24>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_25
+				m_strName="nose_wrinkler_down"
+			</CHILD_OBJECT>
+			m_vars(71)=cNamedVar<cNamedVar_25>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_26
+				m_strName="nose_wrinkler_up"
+			</CHILD_OBJECT>
+			m_vars(72)=cNamedVar<cNamedVar_26>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_93
+				m_strName="pouty_lip"
+			</CHILD_OBJECT>
+			m_vars(73)=cNamedVar<cNamedVar_93>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_27
+				m_strName="shoulderL_BF"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(74)=cNamedVar<cNamedVar_27>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_28
+				m_strName="shoulderL_up"
+			</CHILD_OBJECT>
+			m_vars(75)=cNamedVar<cNamedVar_28>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_29
+				m_strName="shoulderR_BF"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(76)=cNamedVar<cNamedVar_29>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_32
+				m_strName="shoulderR_up"
+			</CHILD_OBJECT>
+			m_vars(77)=cNamedVar<cNamedVar_32>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_101
+				m_strName="special_action"
+			</CHILD_OBJECT>
+			m_vars(78)=cNamedVar<cNamedVar_101>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_102
+				m_strName="special_action_end"
+			</CHILD_OBJECT>
+			m_vars(79)=cNamedVar<cNamedVar_102>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_103
+				m_strName="special_action_num"
+			</CHILD_OBJECT>
+			m_vars(80)=cNamedVar<cNamedVar_103>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_104
+				m_strName="special_pose1"
+			</CHILD_OBJECT>
+			m_vars(81)=cNamedVar<cNamedVar_104>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_105
+				m_strName="special_pose2"
+			</CHILD_OBJECT>
+			m_vars(82)=cNamedVar<cNamedVar_105>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_106
+				m_strName="special_pose3"
+			</CHILD_OBJECT>
+			m_vars(83)=cNamedVar<cNamedVar_106>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_107
+				m_strName="special_pose4"
+			</CHILD_OBJECT>
+			m_vars(84)=cNamedVar<cNamedVar_107>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_33
+				m_strName="talk"
+			</CHILD_OBJECT>
+			m_vars(85)=cNamedVar<cNamedVar_33>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_34
+				m_strName="tongue_out"
+			</CHILD_OBJECT>
+			m_vars(86)=cNamedVar<cNamedVar_34>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_35
+				m_strName="tongue_out2"
+			</CHILD_OBJECT>
+			m_vars(87)=cNamedVar<cNamedVar_35>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_48
+				m_strName="tongueLR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(88)=cNamedVar<cNamedVar_48>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_49
+				m_strName="tongueUD"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(89)=cNamedVar<cNamedVar_49>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_50
+				m_strName="viseme_A"
+			</CHILD_OBJECT>
+			m_vars(90)=cNamedVar<cNamedVar_50>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_54
+				m_strName="viseme_CG"
+			</CHILD_OBJECT>
+			m_vars(91)=cNamedVar<cNamedVar_54>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_55
+				m_strName="viseme_CH"
+			</CHILD_OBJECT>
+			m_vars(92)=cNamedVar<cNamedVar_55>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_56
+				m_strName="viseme_E"
+			</CHILD_OBJECT>
+			m_vars(93)=cNamedVar<cNamedVar_56>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_57
+				m_strName="viseme_F"
+			</CHILD_OBJECT>
+			m_vars(94)=cNamedVar<cNamedVar_57>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_58
+				m_strName="viseme_I"
+			</CHILD_OBJECT>
+			m_vars(95)=cNamedVar<cNamedVar_58>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_59
+				m_strName="viseme_L"
+			</CHILD_OBJECT>
+			m_vars(96)=cNamedVar<cNamedVar_59>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_60
+				m_strName="viseme_M"
+			</CHILD_OBJECT>
+			m_vars(97)=cNamedVar<cNamedVar_60>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_61
+				m_strName="viseme_new_AA"
+			</CHILD_OBJECT>
+			m_vars(98)=cNamedVar<cNamedVar_61>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_62
+				m_strName="viseme_new_AH"
+			</CHILD_OBJECT>
+			m_vars(99)=cNamedVar<cNamedVar_62>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_63
+				m_strName="viseme_new_AO"
+			</CHILD_OBJECT>
+			m_vars(100)=cNamedVar<cNamedVar_63>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_64
+				m_strName="viseme_new_AW"
+			</CHILD_OBJECT>
+			m_vars(101)=cNamedVar<cNamedVar_64>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_65
+				m_strName="viseme_new_CH"
+			</CHILD_OBJECT>
+			m_vars(102)=cNamedVar<cNamedVar_65>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_66
+				m_strName="viseme_new_EH"
+			</CHILD_OBJECT>
+			m_vars(103)=cNamedVar<cNamedVar_66>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_67
+				m_strName="viseme_new_EY"
+			</CHILD_OBJECT>
+			m_vars(104)=cNamedVar<cNamedVar_67>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_68
+				m_strName="viseme_new_FV"
+			</CHILD_OBJECT>
+			m_vars(105)=cNamedVar<cNamedVar_68>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_69
+				m_strName="viseme_new_IH"
+			</CHILD_OBJECT>
+			m_vars(106)=cNamedVar<cNamedVar_69>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_70
+				m_strName="viseme_new_L"
+			</CHILD_OBJECT>
+			m_vars(107)=cNamedVar<cNamedVar_70>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_71
+				m_strName="viseme_new_MBP"
+			</CHILD_OBJECT>
+			m_vars(108)=cNamedVar<cNamedVar_71>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_72
+				m_strName="viseme_new_N"
+			</CHILD_OBJECT>
+			m_vars(109)=cNamedVar<cNamedVar_72>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_73
+				m_strName="viseme_new_OY"
+			</CHILD_OBJECT>
+			m_vars(110)=cNamedVar<cNamedVar_73>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_74
+				m_strName="viseme_new_R"
+			</CHILD_OBJECT>
+			m_vars(111)=cNamedVar<cNamedVar_74>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_75
+				m_strName="viseme_new_W"
+			</CHILD_OBJECT>
+			m_vars(112)=cNamedVar<cNamedVar_75>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_76
+				m_strName="viseme_new_X"
+			</CHILD_OBJECT>
+			m_vars(113)=cNamedVar<cNamedVar_76>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_77
+				m_strName="viseme_new_Y"
+			</CHILD_OBJECT>
+			m_vars(114)=cNamedVar<cNamedVar_77>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_78
+				m_strName="viseme_O"
+			</CHILD_OBJECT>
+			m_vars(115)=cNamedVar<cNamedVar_78>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_79
+				m_strName="viseme_R"
+			</CHILD_OBJECT>
+			m_vars(116)=cNamedVar<cNamedVar_79>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_80
+				m_strName="viseme_S"
+			</CHILD_OBJECT>
+			m_vars(117)=cNamedVar<cNamedVar_80>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_81
+				m_strName="viseme_TD"
+			</CHILD_OBJECT>
+			m_vars(118)=cNamedVar<cNamedVar_81>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_82
+				m_strName="viseme_TH"
+			</CHILD_OBJECT>
+			m_vars(119)=cNamedVar<cNamedVar_82>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_83
+				m_strName="viseme_U"
+			</CHILD_OBJECT>
+			m_vars(120)=cNamedVar<cNamedVar_83>
+			<CHILD_OBJECT> TYPE=cAnimTreeNodeNormalMapByPos NAME=cAnimTreeNodeNormalMapByPos_1
+				m_strClipName="_unveilTeeth"
+				m_arrModifiers(0)=(m_strReferenceBoneName="BipHead",m_nReferenceAxis=X,m_strBoneName="Bip_LipUpper",m_nAffectedComponent=0,m_fValueDistanceMin=0,m_fValueDistanceMax=1,m_arrAffectedBones=((m_strBoneName="BipTeethUp")))
+				m_arrModifiers(1)=(m_strReferenceBoneName="BipJaw",m_nReferenceAxis=Z,m_strBoneName="Bip_LipDown",m_nAffectedComponent=0,m_fValueDistanceMin=0,m_fValueDistanceMax=1,m_arrAffectedBones=((m_strBoneName="BipTeethDown")))
+				<CHILD_OBJECT> TYPE=cAnimTreeNodeNormalMapByPos NAME=cAnimTreeNodeNormalMapByPos_6
+					m_strClipName="MouthTongueBase"
+					m_arrModifiers(0)=(m_strReferenceBoneName="BipHead",m_nReferenceAxis=Z,m_strBoneName="BipTongue4",m_nAffectedComponent=0,m_fValueDistanceMin=0,m_fValueDistanceMax=1,m_arrAffectedBones=((m_strBoneName="BipTongue1"),(m_strBoneName="BipTongue2"),(m_strBoneName="BipTongue3"),(m_strBoneName="BipTongue4")))
+					<CHILD_OBJECT> TYPE=cAnimTreeNodeNormalMapByPos NAME=cAnimTreeNodeNormalMapByPos_0
+						m_strClipName="_unveilTeeth"
+						m_arrModifiers(0)=(m_strReferenceBoneName="BipHead",m_nReferenceAxis=Z,m_strBoneName="Bip_LipUpper",m_nAffectedComponent=0,m_fValueDistanceMin=1,m_fValueDistanceMax=0,m_arrAffectedBones=((m_strBoneName="BipTeethUp")))
+						<CHILD_OBJECT> TYPE=cAnimTreeNodeCustomWorldTransform NAME=cAnimTreeNodeCustomWorldTransform_0
+							<CHILD_OBJECT> TYPE=cAnimTreeNodeCustomWorldTransform NAME=cAnimTreeNodeCustomWorldTransform_2
+								<CHILD_OBJECT> TYPE=cAnimTreeNodeSubtree NAME=cAnimTreeNodeSubtree_1
+									m_strExternalFile="Objects/avatar04_expressiontree.animtree"
+									m_strName="Subtree"
+									m_position=(x=-14.8036,y=-18.706)
+								</CHILD_OBJECT>
+								m_children(0)=cAnimTreeNodeSubtree<cAnimTreeNodeSubtree_1>
+								m_strName="BodyRetargetingNode"
+								m_position=(x=-20.1559,y=-19.6741)
+							</CHILD_OBJECT>
+							m_children(0)=cAnimTreeNodeCustomWorldTransform<cAnimTreeNodeCustomWorldTransform_2>
+							m_strName="RetargetingNode"
+							m_position=(x=-24.368,y=-20.2318)
+						</CHILD_OBJECT>
+						m_children(0)=cAnimTreeNodeCustomWorldTransform<cAnimTreeNodeCustomWorldTransform_0>
+						m_strName="unveilTeeth"
+						m_position=(x=-26.2819,y=-23.6756)
+					</CHILD_OBJECT>
+					m_children(0)=cAnimTreeNodeNormalMapByPos<cAnimTreeNodeNormalMapByPos_0>
+					m_strName="tongueOut"
+					m_position=(x=-28.7297,y=-21.2469)
+				</CHILD_OBJECT>
+				m_children(0)=cAnimTreeNodeNormalMapByPos<cAnimTreeNodeNormalMapByPos_6>
+				m_strName="unveilTeeth"
+				m_position=(x=-32.6808,y=-22.7513)
+			</CHILD_OBJECT>
+			m_children(0)=cAnimTreeNodeNormalMapByPos<cAnimTreeNodeNormalMapByPos_1>
+			m_position=(x=-41.0041,y=-21.8635)
+		</OBJECT>
+	</OBJECT_LIST>
+</ANIM_TREE>

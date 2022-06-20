@@ -1,0 +1,939 @@
+<ANIM_TREE>
+	<OBJECT_LIST>
+		<COMMENT>
+			Created by HDEV4 on 2014/04/18 15:00:28 using Phidias Model Editor (x64) [DX9] (build 3501 - Mar 26 2014)
+		</COMMENT>
+		<OBJECT> TYPE=cAnimTreeNodeRoot NAME=cAnimTreeNodeRoot_1
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_60
+				m_strName="const_0"
+			</CHILD_OBJECT>
+			m_vars(0)=cNamedVar<cNamedVar_60>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_77
+				m_strName="ear_scale"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(1)=cNamedVar<cNamedVar_77>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_61
+				m_strName="eye_l_brow_down"
+			</CHILD_OBJECT>
+			m_vars(2)=cNamedVar<cNamedVar_61>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_62
+				m_strName="eye_l_brow_down_ext"
+			</CHILD_OBJECT>
+			m_vars(3)=cNamedVar<cNamedVar_62>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_63
+				m_strName="eye_l_brow_up"
+			</CHILD_OBJECT>
+			m_vars(4)=cNamedVar<cNamedVar_63>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_64
+				m_strName="eye_l_brow_up_ext"
+			</CHILD_OBJECT>
+			m_vars(5)=cNamedVar<cNamedVar_64>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_65
+				m_strName="eye_l_closed"
+			</CHILD_OBJECT>
+			m_vars(6)=cNamedVar<cNamedVar_65>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_3
+				m_strName="eye_l_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(7)=cNamedVar<cNamedVar_3>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_66
+				m_strName="eye_l_size"
+			</CHILD_OBJECT>
+			m_vars(8)=cNamedVar<cNamedVar_66>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_67
+				m_strName="eye_l_squint"
+			</CHILD_OBJECT>
+			m_vars(9)=cNamedVar<cNamedVar_67>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_4
+				m_strName="eye_l_UD"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(10)=cNamedVar<cNamedVar_4>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_68
+				m_strName="eye_r_brow_down"
+			</CHILD_OBJECT>
+			m_vars(11)=cNamedVar<cNamedVar_68>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_69
+				m_strName="eye_r_brow_down_ext"
+			</CHILD_OBJECT>
+			m_vars(12)=cNamedVar<cNamedVar_69>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_70
+				m_strName="eye_r_brow_up"
+			</CHILD_OBJECT>
+			m_vars(13)=cNamedVar<cNamedVar_70>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_71
+				m_strName="eye_r_brow_up_ext"
+			</CHILD_OBJECT>
+			m_vars(14)=cNamedVar<cNamedVar_71>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_72
+				m_strName="eye_r_closed"
+			</CHILD_OBJECT>
+			m_vars(15)=cNamedVar<cNamedVar_72>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_5
+				m_strName="eye_r_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(16)=cNamedVar<cNamedVar_5>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_73
+				m_strName="eye_r_size"
+			</CHILD_OBJECT>
+			m_vars(17)=cNamedVar<cNamedVar_73>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_74
+				m_strName="eye_r_squint"
+			</CHILD_OBJECT>
+			m_vars(18)=cNamedVar<cNamedVar_74>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_6
+				m_strName="eye_r_UD"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(19)=cNamedVar<cNamedVar_6>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_76
+				m_strName="eye_scale"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(20)=cNamedVar<cNamedVar_76>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_58
+				m_strName="head_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(21)=cNamedVar<cNamedVar_58>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_54
+				m_strName="head_squash"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(22)=cNamedVar<cNamedVar_54>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_59
+				m_strName="head_twist"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(23)=cNamedVar<cNamedVar_59>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_57
+				m_strName="head_UD"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(24)=cNamedVar<cNamedVar_57>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_78
+				m_strName="idle"
+			</CHILD_OBJECT>
+			m_vars(25)=cNamedVar<cNamedVar_78>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_79
+				m_strName="mouth_phonem_o"
+			</CHILD_OBJECT>
+			m_vars(26)=cNamedVar<cNamedVar_79>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_80
+				m_strName="mouth_pursed_lips"
+			</CHILD_OBJECT>
+			m_vars(27)=cNamedVar<cNamedVar_80>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_81
+				m_strName="mouth_pursed_lips_left"
+			</CHILD_OBJECT>
+			m_vars(28)=cNamedVar<cNamedVar_81>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_7
+				m_strName="mouth_pursed_lips_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(29)=cNamedVar<cNamedVar_7>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_82
+				m_strName="mouth_pursed_lips_right"
+			</CHILD_OBJECT>
+			m_vars(30)=cNamedVar<cNamedVar_82>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_83
+				m_strName="mouth_smile"
+			</CHILD_OBJECT>
+			m_vars(31)=cNamedVar<cNamedVar_83>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_84
+				m_strName="mouth_smile_right"
+			</CHILD_OBJECT>
+			m_vars(32)=cNamedVar<cNamedVar_84>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_85
+				m_strName="mouth_smile_unsure"
+			</CHILD_OBJECT>
+			m_vars(33)=cNamedVar<cNamedVar_85>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_86
+				m_strName="mouth_unsure"
+			</CHILD_OBJECT>
+			m_vars(34)=cNamedVar<cNamedVar_86>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_87
+				m_strName="mouth_unsure_right"
+			</CHILD_OBJECT>
+			m_vars(35)=cNamedVar<cNamedVar_87>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_88
+				m_strName="mouth_unveilled_teeth"
+			</CHILD_OBJECT>
+			m_vars(36)=cNamedVar<cNamedVar_88>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_89
+				m_strName="mouth_unveilled_teeth_down"
+			</CHILD_OBJECT>
+			m_vars(37)=cNamedVar<cNamedVar_89>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_90
+				m_strName="mouth_wide_open"
+			</CHILD_OBJECT>
+			m_vars(38)=cNamedVar<cNamedVar_90>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_55
+				m_strName="mouth_width"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(39)=cNamedVar<cNamedVar_55>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_0
+				m_strName="move_FB"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(40)=cNamedVar<cNamedVar_0>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_1
+				m_strName="move_LR"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(41)=cNamedVar<cNamedVar_1>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_2
+				m_strName="move_twist"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(42)=cNamedVar<cNamedVar_2>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_56
+				m_strName="nose_scale"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(43)=cNamedVar<cNamedVar_56>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_91
+				m_strName="nose_wrinkler_down"
+			</CHILD_OBJECT>
+			m_vars(44)=cNamedVar<cNamedVar_91>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_92
+				m_strName="nose_wrinkler_up"
+			</CHILD_OBJECT>
+			m_vars(45)=cNamedVar<cNamedVar_92>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_50
+				m_strName="shoulderL_BF"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(46)=cNamedVar<cNamedVar_50>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_48
+				m_strName="shoulderL_up"
+			</CHILD_OBJECT>
+			m_vars(47)=cNamedVar<cNamedVar_48>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_75
+				m_strName="shoulderR_BF"
+				m_fDefaultValue=0.5
+			</CHILD_OBJECT>
+			m_vars(48)=cNamedVar<cNamedVar_75>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_49
+				m_strName="shoulderR_up"
+			</CHILD_OBJECT>
+			m_vars(49)=cNamedVar<cNamedVar_49>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_93
+				m_strName="talk"
+			</CHILD_OBJECT>
+			m_vars(50)=cNamedVar<cNamedVar_93>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_94
+				m_strName="viseme_A"
+			</CHILD_OBJECT>
+			m_vars(51)=cNamedVar<cNamedVar_94>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_95
+				m_strName="viseme_CG"
+			</CHILD_OBJECT>
+			m_vars(52)=cNamedVar<cNamedVar_95>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_96
+				m_strName="viseme_CH"
+			</CHILD_OBJECT>
+			m_vars(53)=cNamedVar<cNamedVar_96>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_97
+				m_strName="viseme_E"
+			</CHILD_OBJECT>
+			m_vars(54)=cNamedVar<cNamedVar_97>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_98
+				m_strName="viseme_F"
+			</CHILD_OBJECT>
+			m_vars(55)=cNamedVar<cNamedVar_98>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_99
+				m_strName="viseme_I"
+			</CHILD_OBJECT>
+			m_vars(56)=cNamedVar<cNamedVar_99>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_100
+				m_strName="viseme_L"
+			</CHILD_OBJECT>
+			m_vars(57)=cNamedVar<cNamedVar_100>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_101
+				m_strName="viseme_M"
+			</CHILD_OBJECT>
+			m_vars(58)=cNamedVar<cNamedVar_101>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_102
+				m_strName="viseme_O"
+			</CHILD_OBJECT>
+			m_vars(59)=cNamedVar<cNamedVar_102>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_103
+				m_strName="viseme_R"
+			</CHILD_OBJECT>
+			m_vars(60)=cNamedVar<cNamedVar_103>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_104
+				m_strName="viseme_S"
+			</CHILD_OBJECT>
+			m_vars(61)=cNamedVar<cNamedVar_104>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_105
+				m_strName="viseme_TD"
+			</CHILD_OBJECT>
+			m_vars(62)=cNamedVar<cNamedVar_105>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_106
+				m_strName="viseme_TH"
+			</CHILD_OBJECT>
+			m_vars(63)=cNamedVar<cNamedVar_106>
+			<CHILD_OBJECT> TYPE=cNamedVar NAME=cNamedVar_107
+				m_strName="viseme_U"
+			</CHILD_OBJECT>
+			m_vars(64)=cNamedVar<cNamedVar_107>
+			<CHILD_OBJECT> TYPE=cAnimTreeNodeNormalMapByPos NAME=cAnimTreeNodeNormalMapByPos_0
+				m_strClipName="specialNormalMapDrive"
+				m_arrModifiers(0)=(m_strReferenceBoneName="BipSpine",m_nReferenceAxis=Z,m_strBoneName="BipSmileMouthOpen_L",m_nAffectedComponent=0,m_fValueDistanceMin=1,m_fValueDistanceMax=0,m_arrAffectedBones=((m_strBoneName="BipLHead_D"),(m_strBoneName="BipLLipCorner"),(m_strBoneName="BipLLipDown_1"),(m_strBoneName="BipRLipDown_2"),(m_strBoneName="BipRLipUpper_3"),(m_strBoneName="BipLCheeck_1"),(m_strBoneName="BipLCheeck_1b"),(m_strBoneName="BipLCheeck_2"),(m_strBoneName="BipLCheeck_2b"),(m_strBoneName="BipLCheeck_3"),(m_strBoneName="BipLCheeck_3b"),(m_strBoneName="BipLCheeck_4"),(m_strBoneName="BipLCheeck_4b"),(m_strBoneName="BipLMiddleCheeck"),(m_strBoneName="BipLUpperCheeck")))
+				m_arrModifiers(1)=(m_strReferenceBoneName="BipSpine",m_nReferenceAxis=Z,m_strBoneName="BipSmileMouthOpen_R",m_nAffectedComponent=0,m_fValueDistanceMin=1,m_fValueDistanceMax=0,m_arrAffectedBones=((m_strBoneName="BipRHead_D"),(m_strBoneName="BipRLipCorner"),(m_strBoneName="BipRLipDown_1"),(m_strBoneName="BipRLipDown_2"),(m_strBoneName="BipRLipUpper_3"),(m_strBoneName="BipRCheeck_1"),(m_strBoneName="BipRCheeck_1b"),(m_strBoneName="BipRCheeck_2"),(m_strBoneName="BipRCheeck_2b"),(m_strBoneName="BipRCheeck_3"),(m_strBoneName="BipRCheeck_3b"),(m_strBoneName="BipRCheeck_4"),(m_strBoneName="BipRCheeck_4b"),(m_strBoneName="BipRMiddleCheeck"),(m_strBoneName="BipRUpperCheeck")))
+				<CHILD_OBJECT> TYPE=cAnimTreeNodeNormalMapByPos NAME=cAnimTreeNodeNormalMapByPos_1
+					m_strClipName="specialNormalMapDrive"
+					m_arrModifiers(0)=(m_strReferenceBoneName="BipSpine",m_nReferenceAxis=Z,m_strBoneName="BipSmileMouthClosed_L",m_nAffectedComponent=1,m_fValueDistanceMin=1,m_fValueDistanceMax=0,m_arrAffectedBones=((m_strBoneName="BipLHead_D"),(m_strBoneName="BipLLipCorner"),(m_strBoneName="BipLLipDown_1"),(m_strBoneName="BipRLipDown_2"),(m_strBoneName="BipRLipUpper_3"),(m_strBoneName="BipLCheeck_1"),(m_strBoneName="BipLCheeck_1b"),(m_strBoneName="BipLCheeck_2"),(m_strBoneName="BipLCheeck_2b"),(m_strBoneName="BipLCheeck_3"),(m_strBoneName="BipLCheeck_3b"),(m_strBoneName="BipLCheeck_4"),(m_strBoneName="BipLCheeck_4b"),(m_strBoneName="BipLMiddleCheeck"),(m_strBoneName="BipLUpperCheeck")))
+					m_arrModifiers(1)=(m_strReferenceBoneName="BipSpine",m_nReferenceAxis=Z,m_strBoneName="BipSmileMouthClosed_R",m_nAffectedComponent=1,m_fValueDistanceMin=1,m_fValueDistanceMax=0,m_arrAffectedBones=((m_strBoneName="BipRHead_D"),(m_strBoneName="BipRLipCorner"),(m_strBoneName="BipRLipDown_1"),(m_strBoneName="BipRLipDown_2"),(m_strBoneName="BipRLipUpper_3"),(m_strBoneName="BipRCheeck_1"),(m_strBoneName="BipRCheeck_1b"),(m_strBoneName="BipRCheeck_2"),(m_strBoneName="BipRCheeck_2b"),(m_strBoneName="BipRCheeck_3"),(m_strBoneName="BipRCheeck_3b"),(m_strBoneName="BipRCheeck_4"),(m_strBoneName="BipRCheeck_4b"),(m_strBoneName="BipRMiddleCheeck"),(m_strBoneName="BipRUpperCheeck")))
+					<CHILD_OBJECT> TYPE=cAnimTreeNodeNormalMapByPos NAME=cAnimTreeNodeNormalMapByPos_7
+						m_strClipName="refEyeBrowsUp"
+						m_arrModifiers(0)=(m_strReferenceBoneName="BipHead",m_nReferenceAxis=X,m_strBoneName="BipLEyebrow_in",m_nAffectedComponent=1,m_fValueDistanceMin=1,m_fValueDistanceMax=0,m_arrAffectedBones=((m_strBoneName="BipLEyebrow_in"),(m_strBoneName="BipLEyebrow_mid"),(m_strBoneName="BipLEyebrow_out"),(m_strBoneName="BipLHead_U")))
+						m_arrModifiers(1)=(m_strReferenceBoneName="BipHead",m_nReferenceAxis=X,m_strBoneName="BipREyebrow_in",m_nAffectedComponent=1,m_fValueDistanceMin=1,m_fValueDistanceMax=0,m_arrAffectedBones=((m_strBoneName="BipREyebrow_in"),(m_strBoneName="BipREyebrow_mid"),(m_strBoneName="BipREyebrow_out"),(m_strBoneName="BipRHead_U")))
+						<CHILD_OBJECT> TYPE=cAnimTreeNodeNormalMapByPos NAME=cAnimTreeNodeNormalMapByPos_6
+							m_strClipName="refEyeBrowsDown"
+							m_arrModifiers(0)=(m_strReferenceBoneName="BipHead",m_nReferenceAxis=X,m_strBoneName="BipLEyebrow_in",m_nAffectedComponent=0,m_fValueDistanceMin=0,m_fValueDistanceMax=1,m_arrAffectedBones=((m_strBoneName="BipLEyebrow_in"),(m_strBoneName="BipLEyebrow_mid"),(m_strBoneName="BipLEyebrow_out"),(m_strBoneName="BipLForehead1"),(m_strBoneName="BipLForehead2"),(m_strBoneName="BipLHead_U"),(m_strBoneName="BipNoseBrige")))
+							m_arrModifiers(1)=(m_strReferenceBoneName="BipHead",m_nReferenceAxis=X,m_strBoneName="BipREyebrow_in",m_nAffectedComponent=0,m_fValueDistanceMin=0,m_fValueDistanceMax=1,m_arrAffectedBones=((m_strBoneName="BipREyebrow_in"),(m_strBoneName="BipREyebrow_mid"),(m_strBoneName="BipREyebrow_out"),(m_strBoneName="BipRHead_U")))
+							<CHILD_OBJECT> TYPE=cAnimTreeNodeUserAnim NAME=cAnimTreeNodeUserAnim_0
+								<CHILD_OBJECT> TYPE=cAnimTreeNodeAdd NAME=cAnimTreeNodeAdd_0
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_0
+										m_strInputName="idle"
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeMotion NAME=cAnimTreeNodeMotion_0
+											m_strClipName="neutral"
+											m_position=(x=-0.490101,y=-8.16239)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeMotion<cAnimTreeNodeMotion_0>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeMotion NAME=cAnimTreeNodeMotion_2
+											m_strClipName="idle1"
+											m_strName="IdleMotion"
+											m_position=(x=-0.411439,y=-6.05375)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeMotion<cAnimTreeNodeMotion_2>
+										m_children(2)=None
+										m_position=(x=-3.93613,y=-7.15948)
+									</CHILD_OBJECT>
+									m_children(0)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_0>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_4
+										m_strInputName="mouth_wide_open"
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_11
+											m_position=(x=0.290257,y=-12.9412)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_11>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_42
+											m_bInvertTime=TRUE
+											m_strClipName="MouthOpen"
+											m_position=(x=0.715211,y=-11.9101)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_42>
+										m_children(2)=None
+										m_position=(x=-8.89197,y=-12.6714)
+									</CHILD_OBJECT>
+									m_children(1)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_4>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_19
+										m_strInputName="eye_l_brow_down"
+										m_strClipName="LeftEyebrow_Down"
+										m_position=(x=-1.86759,y=-0.650034)
+									</CHILD_OBJECT>
+									m_children(2)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_19>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_20
+										m_strInputName="eye_l_brow_up"
+										m_strClipName="LeftEyebrow_Up"
+										m_position=(x=-1.81178,y=0.801116)
+									</CHILD_OBJECT>
+									m_children(3)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_20>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_21
+										m_strInputName="eye_l_closed"
+										m_strClipName="LeftEyeClosed"
+										m_position=(x=-1.75597,y=2.41972)
+									</CHILD_OBJECT>
+									m_children(4)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_21>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_22
+										m_strInputName="eye_l_squint"
+										m_strClipName="LeftEyeSquint"
+										m_position=(x=-1.68068,y=4.0655)
+									</CHILD_OBJECT>
+									m_children(5)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_22>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_23
+										m_strInputName="eye_r_brow_down"
+										m_strClipName="RightEyebrow_Down"
+										m_position=(x=-1.74723,y=6.87592)
+									</CHILD_OBJECT>
+									m_children(6)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_23>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_24
+										m_strInputName="eye_r_brow_up"
+										m_strClipName="RightEyebrow_Up"
+										m_position=(x=-1.71936,y=8.32707)
+									</CHILD_OBJECT>
+									m_children(7)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_24>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_30
+										m_strInputName="eye_r_closed"
+										m_strClipName="RightEyeClosed"
+										m_position=(x=-1.66355,y=9.94567)
+									</CHILD_OBJECT>
+									m_children(8)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_30>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_31
+										m_strInputName="eye_r_squint"
+										m_strClipName="RightEyeSquint"
+										m_position=(x=-1.48166,y=11.5532)
+									</CHILD_OBJECT>
+									m_children(9)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_31>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_7
+										m_strInputName="eye_l_brow_down_ext"
+										m_strClipName="LeftEyebrow_Down_ext"
+										m_position=(x=4.24951,y=10.3732)
+									</CHILD_OBJECT>
+									m_children(10)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_7>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_8
+										m_strInputName="eye_l_brow_up_ext"
+										m_strClipName="LeftEyebrow_Up_ext"
+										m_position=(x=4.2462,y=11.9252)
+									</CHILD_OBJECT>
+									m_children(11)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_8>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_1
+										m_strInputName="eye_r_brow_down_ext"
+										m_strClipName="RightEyebrow_Down_ext"
+										m_position=(x=4.64317,y=13.6485)
+									</CHILD_OBJECT>
+									m_children(12)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_1>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_2
+										m_strInputName="eye_r_brow_up_ext"
+										m_strClipName="RightEyebrow_Up_ext"
+										m_position=(x=5.14717,y=14.8798)
+									</CHILD_OBJECT>
+									m_children(13)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_2>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_1
+										m_strInputName="mouth_wide_open"
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_7
+											m_strInputName="mouth_smile_unsure"
+											<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_25
+												m_strInputName="mouth_smile_right"
+												m_strClipName="MouthClosedCorner_spreadUp_R"
+												m_position=(x=21.054,y=11.088)
+											</CHILD_OBJECT>
+											m_children(0)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_25>
+											<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_27
+												m_strInputName="mouth_unsure_right"
+												m_strClipName="MouthClosedCorner_spreadDown_R"
+												m_position=(x=20.5811,y=13.7426)
+											</CHILD_OBJECT>
+											m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_27>
+											m_children(2)=None
+											m_position=(x=13.6906,y=12.1834)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_7>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_6
+											m_strInputName="mouth_smile_unsure"
+											<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_43
+												m_strInputName="mouth_smile_right"
+												m_strClipName="MouthOpenCornerUp_R"
+												m_position=(x=22.9981,y=16.7173)
+											</CHILD_OBJECT>
+											m_children(0)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_43>
+											<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_44
+												m_strInputName="mouth_unsure_right"
+												m_strClipName="MouthOpenCornerDown_R"
+												m_position=(x=23.2715,y=19.877)
+											</CHILD_OBJECT>
+											m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_44>
+											m_children(2)=None
+											m_position=(x=13.3829,y=17.9953)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_6>
+										m_children(2)=None
+										m_position=(x=6.65216,y=17.5465)
+									</CHILD_OBJECT>
+									m_children(14)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_1>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_35
+										m_strInputName="nose_wrinkler_up"
+										m_strClipName="NoseWrinker_Up"
+										m_position=(x=-13.8014,y=12.3875)
+									</CHILD_OBJECT>
+									m_children(15)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_35>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_36
+										m_strInputName="nose_wrinkler_down"
+										m_strClipName="NoseWrinker_Down"
+										m_position=(x=-10.6238,y=13.4075)
+									</CHILD_OBJECT>
+									m_children(16)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_36>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_15
+										m_strInputName="eye_l_size"
+										m_strClipName="LeftEyeWideOpen"
+										m_position=(x=0.200844,y=19.4693)
+									</CHILD_OBJECT>
+									m_children(17)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_15>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_16
+										m_strInputName="eye_r_size"
+										m_strClipName="RightEyeWideOpen"
+										m_position=(x=-0.441936,y=21.5347)
+									</CHILD_OBJECT>
+									m_children(18)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_16>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_0
+										m_strInputName="mouth_wide_open"
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_2
+											m_strInputName="mouth_smile_unsure"
+											<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_0
+												m_strInputName="mouth_smile"
+												m_strClipName="MouthClosedCorner_spreadUp_L"
+												m_position=(x=16.7605,y=-11.5252)
+											</CHILD_OBJECT>
+											m_children(0)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_0>
+											<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_4
+												m_strInputName="mouth_unsure"
+												m_strClipName="MouthClosedCorner_spreadDown_L"
+												m_position=(x=16.6988,y=-9.68649)
+											</CHILD_OBJECT>
+											m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_4>
+											m_children(2)=None
+											m_position=(x=9.26918,y=-10.6263)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_2>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_5
+											m_strInputName="mouth_smile_unsure"
+											<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_33
+												m_strInputName="mouth_smile"
+												m_strClipName="MouthOpenCornerUp_L"
+												m_position=(x=18.0493,y=-4.00893)
+											</CHILD_OBJECT>
+											m_children(0)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_33>
+											<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_34
+												m_strInputName="mouth_unsure"
+												m_strClipName="MouthOpenCornerDown_L"
+												m_position=(x=17.3717,y=-0.214341)
+											</CHILD_OBJECT>
+											m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_34>
+											m_children(2)=None
+											m_position=(x=9.80251,y=-3.17329)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_5>
+										m_children(2)=None
+										m_position=(x=-0.165215,y=-3.48756)
+									</CHILD_OBJECT>
+									m_children(19)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_0>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_9
+										m_strInputName="viseme_A"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_8
+											m_position=(x=-15.0539,y=22.1077)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_8>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_13
+											m_strClipName="visime_A"
+											m_position=(x=-15.4634,y=23.3363)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_13>
+										m_children(2)=None
+										m_position=(x=-19.1827,y=20.7585)
+									</CHILD_OBJECT>
+									m_children(20)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_9>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_4
+										m_strInputName="viseme_E"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_3
+											m_position=(x=-14.9003,y=25.1279)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_3>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_12
+											m_strClipName="visime_E"
+											m_position=(x=-14.8521,y=26.459)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_12>
+										m_children(2)=None
+										m_position=(x=-19.0944,y=24.6653)
+									</CHILD_OBJECT>
+									m_children(21)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_4>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_5
+										m_strInputName="viseme_F"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_4
+											m_position=(x=-15.1819,y=27.6619)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_4>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_14
+											m_strClipName="visime_FV"
+											m_position=(x=-14.9771,y=28.7114)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_14>
+										m_children(2)=None
+										m_position=(x=-19.1968,y=27.6634)
+									</CHILD_OBJECT>
+									m_children(22)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_5>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_2
+										m_strInputName="viseme_L"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_1
+											m_position=(x=-15.105,y=30.0423)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_1>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_6
+											m_strClipName="visime_NL"
+											m_position=(x=-14.9259,y=31.2198)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_6>
+										m_children(2)=None
+										m_position=(x=-19.1338,y=30.3468)
+									</CHILD_OBJECT>
+									m_children(23)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_2>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_7
+										m_strInputName="viseme_M"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_6
+											m_position=(x=-14.3372,y=32.7555)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_6>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_18
+											m_strClipName="visime_MBP"
+											m_position=(x=-14.7211,y=34.0866)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_18>
+										m_children(2)=None
+										m_position=(x=-19.1712,y=33.2561)
+									</CHILD_OBJECT>
+									m_children(24)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_7>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_8
+										m_strInputName="viseme_O"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_7
+											m_position=(x=-14.4139,y=36.0062)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_7>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_5
+											m_strClipName="visime_O"
+											m_position=(x=-14.8364,y=37.4124)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_5>
+										m_children(2)=None
+										m_position=(x=-19.2793,y=36.3905)
+									</CHILD_OBJECT>
+									m_children(25)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_8>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_6
+										m_strInputName="viseme_S"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_5
+											m_position=(x=-14.4762,y=39.6108)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_5>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_17
+											m_strClipName="visime_SZ"
+											m_position=(x=-14.9015,y=41.1486)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_17>
+										m_children(2)=None
+										m_position=(x=-19.7239,y=39.3108)
+									</CHILD_OBJECT>
+									m_children(26)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_6>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_10
+										m_strInputName="viseme_CG"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_9
+											m_position=(x=-15.2476,y=44.4534)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_9>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_26
+											m_strClipName="visime_CG"
+											m_position=(x=-15.6571,y=45.682)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_26>
+										m_children(2)=None
+										m_position=(x=-19.4834,y=43.0625)
+									</CHILD_OBJECT>
+									m_children(27)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_10>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_11
+										m_strInputName="viseme_CH"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_10
+											m_position=(x=-15.2759,y=48.6358)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_10>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_28
+											m_strClipName="visime_CH"
+											m_position=(x=-15.6854,y=49.8644)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_28>
+										m_children(2)=None
+										m_position=(x=-19.5117,y=47.2449)
+									</CHILD_OBJECT>
+									m_children(28)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_11>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_12
+										m_strInputName="viseme_I"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_12
+											m_position=(x=4.29765,y=39.5763)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_12>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_32
+											m_strClipName="visime_I"
+											m_position=(x=4.13535,y=41.6173)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_32>
+										m_children(2)=None
+										m_position=(x=0.179648,y=38.8203)
+									</CHILD_OBJECT>
+									m_children(29)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_12>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_13
+										m_strInputName="viseme_TD"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_13
+											m_position=(x=4.06135,y=44.2677)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_13>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_37
+											m_strClipName="visime_TD"
+											m_position=(x=3.65185,y=45.4963)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_37>
+										m_children(2)=None
+										m_position=(x=-0.00725651,y=42.8768)
+									</CHILD_OBJECT>
+									m_children(30)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_13>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_14
+										m_strInputName="viseme_TH"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_14
+											m_position=(x=4.42785,y=47.7715)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_14>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_38
+											m_strClipName="visime_TH"
+											m_position=(x=4.01835,y=49.0001)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_38>
+										m_children(2)=None
+										m_position=(x=-0.272553,y=46.6985)
+									</CHILD_OBJECT>
+									m_children(31)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_14>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_18
+										m_strInputName="viseme_U"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_18
+											m_position=(x=3.80525,y=51.5887)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_18>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_46
+											m_strClipName="visime_U"
+											m_position=(x=3.39575,y=52.8173)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_46>
+										m_children(2)=None
+										m_position=(x=-0.347154,y=50.1978)
+									</CHILD_OBJECT>
+									m_children(32)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_18>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeSwitchList NAME=cAnimTreeNodeSwitchList_15
+										m_strInputName="viseme_R"
+										m_fSwitchDuration=0.1
+										m_nChangeBranchAction=Reset_Time
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_15
+											m_position=(x=3.61805,y=55.7535)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_15>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_39
+											m_strClipName="visime_R"
+											m_position=(x=3.23195,y=56.9821)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_39>
+										m_children(2)=None
+										m_position=(x=-0.599656,y=54.3626)
+									</CHILD_OBJECT>
+									m_children(33)=cAnimTreeNodeSwitchList<cAnimTreeNodeSwitchList_15>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_54
+										m_strInputName="eye_l_LR"
+										m_strClipName="LeftEye_LR"
+										m_position=(x=-38.5434,y=-0.722485)
+									</CHILD_OBJECT>
+									m_children(34)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_54>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_55
+										m_strInputName="eye_r_LR"
+										m_strClipName="RightEye_LR"
+										m_position=(x=-38.4081,y=1.00963)
+									</CHILD_OBJECT>
+									m_children(35)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_55>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_51
+										m_strInputName="eye_l_UD"
+										m_strClipName="LeftEye_UD"
+										m_position=(x=-38.3773,y=2.73755)
+									</CHILD_OBJECT>
+									m_children(36)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_51>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_52
+										m_strInputName="eye_r_UD"
+										m_strClipName="RightEye_UD"
+										m_position=(x=-38.3464,y=4.58889)
+									</CHILD_OBJECT>
+									m_children(37)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_52>
+									m_children(38)=None
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_10
+										m_strInputName="head_LR"
+										m_strClipName="Head_LR"
+										m_position=(x=-36.7837,y=6.76683)
+									</CHILD_OBJECT>
+									m_children(39)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_10>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_11
+										m_strInputName="head_UD"
+										m_strClipName="Head_UD"
+										m_position=(x=-37.1462,y=8.6923)
+									</CHILD_OBJECT>
+									m_children(40)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_11>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_40
+										m_strInputName="head_twist"
+										m_strClipName="Head_Twist"
+										m_position=(x=-36.9649,y=10.278)
+									</CHILD_OBJECT>
+									m_children(41)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_40>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_45
+										m_strInputName="shoulderL_up"
+										m_strClipName="ShoulderL_Up"
+										m_position=(x=-38.4042,y=12.2753)
+									</CHILD_OBJECT>
+									m_children(42)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_45>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_48
+										m_strInputName="shoulderR_up"
+										m_strClipName="ShoulderR_Up"
+										m_position=(x=-39.1793,y=13.7898)
+									</CHILD_OBJECT>
+									m_children(43)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_48>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_49
+										m_strInputName="shoulderL_BF"
+										m_strClipName="ShoulderL_BF"
+										m_position=(x=-39.2067,y=15.2395)
+									</CHILD_OBJECT>
+									m_children(44)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_49>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_50
+										m_strInputName="shoulderR_BF"
+										m_strClipName="ShoulderR_BF"
+										m_position=(x=-39.4169,y=16.9142)
+									</CHILD_OBJECT>
+									m_children(45)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_50>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_56
+										m_strInputName="move_FB"
+										m_strClipName="Avatar_FB"
+										m_position=(x=-40.032,y=18.7441)
+									</CHILD_OBJECT>
+									m_children(46)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_56>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_58
+										m_strInputName="move_LR"
+										m_strClipName="Avatar_LR"
+										m_position=(x=-39.91,y=20.0618)
+									</CHILD_OBJECT>
+									m_children(47)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_58>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_57
+										m_strInputName="move_twist"
+										m_strClipName="Avatar_Twist"
+										m_position=(x=-39.9344,y=21.5748)
+									</CHILD_OBJECT>
+									m_children(48)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_57>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_14
+										m_strInputName="mouth_wide_open"
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_3
+											m_strInputName="mouth_pursed_lips"
+											<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_2
+												m_position=(x=-42.8025,y=5.6616)
+											</CHILD_OBJECT>
+											m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_2>
+											<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_59
+												m_strInputName="mouth_pursed_lips_LR"
+												m_strClipName="Mouth_pursedLips_LR"
+												m_position=(x=-44.3302,y=7.41332)
+											</CHILD_OBJECT>
+											m_children(1)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_59>
+											m_children(2)=None
+											m_position=(x=-50.0692,y=6.07591)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_3>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_22
+											m_position=(x=-49.8876,y=8.55292)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_22>
+										m_children(2)=None
+										m_position=(x=-55.3417,y=6.50763)
+									</CHILD_OBJECT>
+									m_children(49)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_14>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_12
+										m_strInputName="mouth_wide_open"
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_3
+											m_strInputName="mouth_unveilled_teeth"
+											m_strClipName="Mouth_unveilledTeethUp"
+											m_position=(x=-49.6617,y=9.64862)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_3>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_19
+											m_position=(x=-49.9103,y=10.9618)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_19>
+										m_children(2)=None
+										m_position=(x=-55.8786,y=9.52016)
+									</CHILD_OBJECT>
+									m_children(50)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_12>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_13
+										m_strInputName="mouth_wide_open"
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeStopMotion NAME=cAnimTreeNodeStopMotion_9
+											m_strInputName="mouth_unveilled_teeth_down"
+											m_strClipName="Mouth_unveilledTeethDown"
+											m_position=(x=-50.3458,y=12.6575)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeStopMotion<cAnimTreeNodeStopMotion_9>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_23
+											m_position=(x=-50.2301,y=14.7414)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_23>
+										m_children(2)=None
+										m_position=(x=-55.586,y=13.0625)
+									</CHILD_OBJECT>
+									m_children(51)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_13>
+									<CHILD_OBJECT> TYPE=cAnimTreeNodeBlendList NAME=cAnimTreeNodeBlendList_8
+										m_strInputName="mouth_wide_open"
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeNullAnim NAME=cAnimTreeNodeNullAnim_0
+											m_position=(x=-40.8933,y=10.2288)
+										</CHILD_OBJECT>
+										m_children(0)=cAnimTreeNodeNullAnim<cAnimTreeNodeNullAnim_0>
+										<CHILD_OBJECT> TYPE=cAnimTreeNodeMotion NAME=cAnimTreeNodeMotion_1
+											m_strClipName="Tongue_idle1"
+											m_position=(x=-40.9205,y=11.5895)
+										</CHILD_OBJECT>
+										m_children(1)=cAnimTreeNodeMotion<cAnimTreeNodeMotion_1>
+										m_children(2)=None
+										m_position=(x=-44.3345,y=10.4212)
+									</CHILD_OBJECT>
+									m_children(52)=cAnimTreeNodeBlendList<cAnimTreeNodeBlendList_8>
+									m_children(53)=None
+									m_position=(x=-41.985,y=-13.7781)
+								</CHILD_OBJECT>
+								m_children(0)=cAnimTreeNodeAdd<cAnimTreeNodeAdd_0>
+								m_position=(x=-26.5269,y=-16.5757)
+							</CHILD_OBJECT>
+							m_children(0)=cAnimTreeNodeUserAnim<cAnimTreeNodeUserAnim_0>
+							m_strName="eyebrowsDown"
+							m_position=(x=-28.6916,y=-18.116)
+						</CHILD_OBJECT>
+						m_children(0)=cAnimTreeNodeNormalMapByPos<cAnimTreeNodeNormalMapByPos_6>
+						m_strName="eyebrowsUp"
+						m_position=(x=-30.0668,y=-19.6886)
+					</CHILD_OBJECT>
+					m_children(0)=cAnimTreeNodeNormalMapByPos<cAnimTreeNodeNormalMapByPos_7>
+					m_strName="smileMouthClosed"
+					m_position=(x=-34.6996,y=-19.6321)
+				</CHILD_OBJECT>
+				m_children(0)=cAnimTreeNodeNormalMapByPos<cAnimTreeNodeNormalMapByPos_1>
+				m_strName="smileMouthOpen"
+				m_position=(x=-38.5073,y=-20.6667)
+			</CHILD_OBJECT>
+			m_children(0)=cAnimTreeNodeNormalMapByPos<cAnimTreeNodeNormalMapByPos_0>
+			m_position=(x=-41.0041,y=-21.8635)
+		</OBJECT>
+	</OBJECT_LIST>
+</ANIM_TREE>
