@@ -19,16 +19,16 @@
     ],
     "idle": [
       {
-        "file": "satou_sasara2\motions\000.mtn"
+        "file": "motions\000.mtn"
       },
       {
-        "file": "satou_sasara2\motions\03.mtn"
+        "file": "motions\03.mtn"
       },
       {
-        "file": "satou_sasara2\motions\Epsilon_m_sp_01.mtn"
+        "file": "motions\Epsilon_m_sp_01.mtn"
       },
       {
-        "file": "satou_sasara2\motions\izumi_08.mtn"
+        "file": "motions\izumi_08.mtn"
       }
     ]
   },
