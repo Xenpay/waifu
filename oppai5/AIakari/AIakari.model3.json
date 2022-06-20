@@ -1,18 +1,16 @@
+
 {
-	"Version": 3,
-	"FileReferences": {
-		"Moc": "AIakari.moc3",
-		"Textures": [
-			"AIakari.4096/texture_00.png",
-			"AIakari.4096/texture_01.png"
-		],
-		"Physics": "AIakari.physics3.json"
-	},
-	"Groups": [
-		{
-			"Target": "Parameter",
-			"Name": "EyeBlink",
-			"Ids": []
-		}
-	]
+ "type": "Live2D Model Setting",
+	"name": "model",
+	"model": "AIakari.moc3",
+	"textures": [
+		"AIakari.4096/texture_00.png",
+		"AIakari.4096/texture_01.png"
+  ],
+  "layout": {
+    "center_x": 0.0,
+    "center_y": 0.0,
+    "width": 1.8
+  },
+  "physics": "AIakari.physics3.json"
 }
