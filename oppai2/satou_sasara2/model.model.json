@@ -1,7 +1,7 @@
 {
  "type": "Live2D Model Setting",
-	"name": "model0",
-	"model": "model0.moc",
+	"name": "model",
+	"model": "model.moc",
 	"textures": [
 		"model0.4096/texture_00.png",
 		"model0.4096/texture_01.png"
