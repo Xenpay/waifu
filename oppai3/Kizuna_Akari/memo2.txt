@@ -1,0 +1,8 @@
+更新　追加した変更点
+PARAM_sunglasses1 サングラス2
+PARAM_posture1　姿勢1に変わります
+PARAM_posture2　姿勢2にが変わります
+PARAM_posture1とPARAM_posture2二つをONにすると姿勢3に変わります
+PARAM_facemask1　マスク１
+PARAM_facemask2　マスク２
+PARAM_clothes1　服変更

@@ -1,0 +1,40 @@
+キー入力によるパラメータを動かす差分の変更
+cc_Kizuna_Akari.cfg内の''で囲まれた英数字(PARAM_○○○)を書き換えると変更できます
+
+PARAM_pupil1　ハート目
+PARAM_pupil2　しいたけ目
+PARAM_pupil1とPARAM_pupil2の二つをONにするとぐるぐる目になります
+
+PARAM_pupil3　ハイライト消し
+PARAM_pupil4　目玉小さく
+PARAM_pupil3とPARAM_pupil4の二つをONにすると目玉が細くなります
+PARAM_darkcircles1　目のくまができます
+
+PARAM_posture1　姿勢1に変わります
+PARAM_posture2　姿勢2にが変わります
+PARAM_posture1とPARAM_posture2二つをONにすると姿勢3に変わります
+
+PARAM_complexion1　頬染
+PARAM_complexion2　顔影
+PARAM_complexion1とPARAM_complexion2の二つをONにすると青ざめになります
+
+PARAM_ear1　ケモ耳
+PARAM_ear2　エルフ耳
+PARAM_ear1とPARAM_ear2二つをONにするとエラ耳になります
+
+PARAM_emotion1　目を細める
+PARAM_emotion2　ジト目
+PARAM_emotion1とPARAM_emotion2二つをONにするとつり目になります
+
+PARAM_Glasses1　メガネ
+PARAM_Glasses2　サングラス
+PARAM_Glasses1とPARAM_Glasses2二つをONにすると目に包帯になります
+PARAM_sunglasses1 サングラス2
+
+PARAM_clothes1　服変更
+PARAM_sweat1　汗
+PARAM_Tear1　涙
+PARAM_Drool1　よだれ
+PARAM_hair1　おさげONOFF
+PARAM_facemask1　マスク１
+PARAM_facemask2　マスク２
